@@ -1,5 +1,5 @@
 # SysWhispers3WinHttp
-SysWhispers3WinHttp 基于SysWhispers3增添WinHttp分离加载，可免杀360核晶与Defender。
+SysWhispers3WinHttp 基于SysWhispers3增添WinHttp分离加载，可免杀360核晶与Defender等杀软。
 
 ## 0x00 免责声明：
 
