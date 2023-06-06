@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <windows.h>
 #include <winhttp.h>
-#include "syscalls.h"
+#include "syscalls64.h"
 
 PVOID VxMoveMemory(PVOID dest, const PVOID src, SIZE_T len)
 {
