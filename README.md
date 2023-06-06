@@ -17,6 +17,7 @@ python3 -m http.server
 // 3. 修改SysWhispers3WinHttp.c第40行IP地址并使用Linux32位GCC进行交叉编译
 i686-w64-mingw32-gcc -o SysWhispers3WinHttp.exe syscalls.c SysWhispers3WinHttp.c -masm=intel -fpermissive -w -s -lwinhttp
 ```
+注：Windows下也可编译，GCC下载地址为 https://master.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/6.4.0/threads-win32/sjlj/i686-6.4.0-release-win32-sjlj-rt_v5-rev0.7z?viasf=1
 
 ## 0x03 演示：
 
