@@ -26,9 +26,6 @@ i686-w64-mingw32-gcc -o SysWhispers3WinHttp.exe syscalls.c SysWhispers3WinHttp.c
 
 ## 0x03 演示：
 
-360核晶（2023/06/06更新）
-![360](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/）
-
 Defender（2023/06/06更新）
 ![WD](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/128464183/a134f8bd-922d-4132-af9d-c8eee6b07fc1)
 
