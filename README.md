@@ -28,10 +28,10 @@ i686-w64-mingw32-gcc -o SysWhispers3WinHttp.exe syscalls.c SysWhispers3WinHttp.c
 ## 0x03 演示：
 
 360（2023/06/06更新）
-![360](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/128464183/c12d9bc9-c77b-4339-8496-f8c97b47f42b)
+![360](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/128464183/f02a6de4-d6db-4012-91f8-e75df30f49ab)
 
 Defender
-![WD](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/128464183/a134f8bd-922d-4132-af9d-c8eee6b07fc1)
+![WD](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/128464183/33e47a93-59ba-48b1-aecb-ffb11dad66bc)
 
 微步云沙箱
 ![threatbook](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/128464183/bfd99aee-6f82-4960-a461-12c1b83b594a)
