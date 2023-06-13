@@ -22,7 +22,7 @@ python3 -m http.server
 x86_64-w64-mingw32-gcc -o SysWhispers3WinHttp.exe syscalls64.c SysWhispers3WinHttp.c -masm=intel -w -s -lwinhttp -O1
 
 // ps. 或修改SysWhispers3WinHttp.c第4行头文件为syscalls.h，修改第40行IP地址，使用Linux32位GCC进行交叉编译
-i686-w64-mingw32-gcc -o SysWhispers3WinHttp.exe syscalls.c SysWhispers3WinHttp.c -masm=intel -w -s -lwinhttp -O1
+i686-w64-mingw32-gcc -o SysWhispers3WinHttp.exe syscalls.c SysWhispers3WinHttp.c -masm=intel -w -s -lwinhttp
 ```
 
 ## 0x03 演示：
