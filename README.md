@@ -7,7 +7,7 @@ SysWhispers3WinHttp 基于SysWhispers3增添WinHttp分离加载，可免杀360�
 
 ## 0x01 更新日志：
 
-2023/06/06 支持64位GCC编译且可通过Stager方式上线SliverC2，增添编译参数绕过静态检测。
+2023/06/06 支持64位GCC编译与Stager方式上线SliverC2，增添编译参数绕过静态检测。
 
 ## 0x02 使用：
 
@@ -27,7 +27,7 @@ i686-w64-mingw32-gcc -o SysWhispers3WinHttp.exe syscalls.c SysWhispers3WinHttp.c
 
 ## 0x03 演示：
 
-360（2023/06/06更新）
+360核晶（2023/06/06更新）
 ![360](https://github.com/huaigu4ng/SysWhispers3WinHttp/assets/128464183/f02a6de4-d6db-4012-91f8-e75df30f49ab)
 
 Defender
